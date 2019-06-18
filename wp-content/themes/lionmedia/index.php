@@ -1,3 +1,4 @@
+<p>テストです</p>
 <?php get_header(); ?>
 
   <?php
