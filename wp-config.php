@@ -20,24 +20,24 @@
 // を使用し、必ず UTF-8 の BOM なし (UTF-8N) で保存してください。
 
 // ** MySQL 設定 - こちらの情報はホスティング先から入手してください。 ** //
-// /** WordPress のためのデータベース名 */
-// define('DB_NAME', 'w-sy_book_log');
+/** WordPress のためのデータベース名 */
+define('DB_NAME', 'w-sy_book_log');
 
-// /** MySQL データベースのユーザー名 */
-// define('DB_USER', 'w-sy');
+/** MySQL データベースのユーザー名 */
+define('DB_USER', 'w-sy');
 
-// /** MySQL データベースのパスワード */
-// define('DB_PASSWORD', 'wweasasddf123');
+/** MySQL データベースのパスワード */
+define('DB_PASSWORD', 'wweasasddf123');
 
-// /** MySQL のホスト名 */
-// define('DB_HOST', 'mysql1021.db.sakura.ne.jp');
+/** MySQL のホスト名 */
+define('DB_HOST', 'mysql1021.db.sakura.ne.jp');
 
-define('DB_NAME', getenv('DB_NAME'));
-define('DB_USER', getenv('DB_USER'));
-define('DB_PASSWORD', getenv('DB_PASSWORD'));
-define('DB_HOST', getenv('DB_HOST'));
-define('WP_HOME', getenv('WP_HOME'));
-define('WP_SITEURL', getenv('WP_SITEURL'));
+// define('DB_NAME', getenv('DB_NAME'));
+// define('DB_USER', getenv('DB_USER'));
+// define('DB_PASSWORD', getenv('DB_PASSWORD'));
+// define('DB_HOST', getenv('DB_HOST'));
+// define('WP_HOME', getenv('WP_HOME'));
+// define('WP_SITEURL', getenv('WP_SITEURL'));
 
 
 /** データベースのテーブルを作成する際のデータベースのキャラクターセット */
