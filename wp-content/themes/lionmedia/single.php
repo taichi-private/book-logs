@@ -108,17 +108,23 @@ get_header(); ?>
       </aside>
       <!-- /AMP用記事上広告エリア -->
 	  <?php endif; ?>
-      
-      
 	  
 	  <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
       <section class="content">
 	    <?php the_content(); ?>
       </section>
 	  <?php endwhile; endif; ?>
-      
-      
-      
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<ins class="adsbygoogle"
+				style="display:block; text-align:center;"
+				data-ad-layout="in-article"
+				data-ad-format="fluid"
+				data-ad-client="ca-pub-8740105066288054"
+				data-ad-slot="4158299990"></ins>
+		<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>  
       
 	  <?php if ( get_option('fit_post_shareBottom') != 'value2' ):?>
       <!-- 記事下シェアボタン -->

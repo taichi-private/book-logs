@@ -1,4 +1,14 @@
-      <?php
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-format="fluid"
+        data-ad-layout-key="-dr+d-1e-2m+aa"
+        data-ad-client="ca-pub-8740105066288054"
+        data-ad-slot="4270938491"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    <?php
 	  if(get_the_category()){
 		  $cat_meta = get_option("cat_meta_data");
 		  $cat = get_the_category();

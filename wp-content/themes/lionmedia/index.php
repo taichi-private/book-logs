@@ -1,6 +1,4 @@
-<p>テストです</p>
 <?php get_header(); ?>
-
   <?php
   if (is_home() && !is_paged() && get_option('fit_function_pickup') == 'value2') :
 	  $args = array(
