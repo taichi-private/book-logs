@@ -115,24 +115,11 @@ get_header(); ?>
       </section>
 	  <?php endwhile; endif; ?>
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<ins class="adsbygoogle"
-				style="display:block; text-align:center;"
-				data-ad-layout="in-article"
-				data-ad-format="fluid"
-				data-ad-client="ca-pub-8740105066288054"
-				data-ad-slot="4158299990"></ins>
-		<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>  
-      
 	  <?php if ( get_option('fit_post_shareBottom') != 'value2' ):?>
       <!-- 記事下シェアボタン -->
         <?php fit_share_btn(); ?>
 	  <!-- /記事下シェアボタン -->
 	  <?php endif; ?>
-
-
 
       <?php if(get_option('fit_cta_postBox') == 'value2' ):?>
       <!-- 記事下CTAエリア -->
