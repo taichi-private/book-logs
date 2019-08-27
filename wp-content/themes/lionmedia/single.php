@@ -52,9 +52,7 @@ get_header(); ?>
           <li class="dateList__item icon-folder"><a class="hc<?php if (isset($cat_meta[$cat_id])) { echo esc_html($cat_meta[$cat_id]);} ?>" href="<?php echo $cat_link; ?>" rel="category"><?php echo $cat_name; ?></a></li>
           <?php if(has_tag() == true) : ?><li class="dateList__item icon-tag"><?php the_tags(''); ?></li><?php endif; ?>
         </ul>
-        
-        
-        
+
       </div>
       <!-- /タイトル -->
 
@@ -171,8 +169,6 @@ get_header(); ?>
       </div>
       <!-- /記事下CTAエリア -->
       <?php endif; ?>
-
-
       
 	  <?php if (!$myAmp && is_active_sidebar('post-bottom')) :?>
       <!-- 記事下エリア[widget] -->
@@ -192,9 +188,6 @@ get_header(); ?>
       </aside>
       <!-- /AMP用記事下広告エリア -->
 	  <?php endif; ?>
-      
-      
-
 
       <?php if (!$myAmp &&  get_option('fit_ad_double') == 'value2' ) :	?>
       <!-- ダブルレクタングル広告 -->

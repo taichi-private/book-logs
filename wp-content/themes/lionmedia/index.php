@@ -55,9 +55,12 @@
   </div>
   <?php endif; ?>
   
+  <div class="c-mainVisual">
+    <div class="c-mainVisual__img"></div>
+  </div>
+  <!-- <img class="c-mainVisual" src="<?php echo get_template_directory_uri(); ?>/img/top.jpg" alt="top"/> -->  
   <!-- l-wrapper -->
   <div class="l-wrapper">
-	
     <!-- l-main -->
     <main class="l-main<?php if ( get_option('fit_theme_archiveLayout') == 'value2' ):?> l-main-single
     <?php if ( get_option('fit_theme_singleWidth') == 'value2' ):?> l-main-w740<?php endif; ?>

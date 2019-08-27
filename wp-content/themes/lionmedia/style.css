@@ -2207,3 +2207,38 @@ a.page-numbers.next::before{
 	.u-none-pc{display:block}
 	.u-none-sp{display: none}
 }
+
+.c-mainVisual {
+	display: inline-block;
+	width: 100%;
+	background: #F2C426;
+}
+.c-mainVisual__img {
+	width: 80%;
+	margin: 0 auto;
+	height: 100%;
+	min-height: 400px;
+	background: center url(../lionmedia/img/top.jpg) no-repeat;
+	background-size: cover;
+}
+@media only screen and (max-width: 1000px){
+	.c-mainVisual__img {
+		min-height: 300px;
+	}
+}
+@media only screen and (max-width: 805px){
+	.c-mainVisual__img {
+		min-height: 260px;
+	}
+}
+@media only screen and (max-width: 660px){
+	.c-mainVisual__img {
+		width: 100%;
+		min-height: 220px;
+	}
+}
+@media only screen and (max-width: 446px){
+	.c-mainVisual__img {
+		min-height: 160px;
+	}
+}
